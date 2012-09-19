@@ -43,5 +43,5 @@ PLi/SoftcamSetup/po/Makefile
 PLi/SnmpAgent/Makefile
 Extensions/Makefile
 Extensions/UShare/Makefile
-Extensions/Mytube/Makefile
+Extensions/MyTube/Makefile
 ])
