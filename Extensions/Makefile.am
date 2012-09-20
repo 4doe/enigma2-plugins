@@ -1,1 +1,1 @@
-SUBDIRS = UShare MyTube
+SUBDIRS = UShare MyTube nStreamVOD

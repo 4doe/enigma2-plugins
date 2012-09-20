@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+  <playlist_name><![CDATA[TURKİYE Portal]]></playlist_name>
+
+	<channel>       
+		<title><![CDATA[FİLİM SEVENLER.]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="filmsevenler.png">  #-#  [MODUL] (TURK)]]></description>
+		<playlist_url><![CDATA[nStreamModul@www.filmsevenler.net@start@ALL CATEGORIES]]></playlist_url>
+	</channel>
+		
+	<channel>       
+		<title><![CDATA[FİLİM ŞEHRİ.]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="filmsehri.png">  #-#  [MODUL] (TURK)]]></description>
+		<playlist_url><![CDATA[nStreamModul@filmsehri.com@start@ALL CATEGORIES]]></playlist_url>
+	</channel>       
+
+	<channel>       
+		<title><![CDATA[SİNAMA İZLE]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="sinemaizle.png">  #-#  [MODUL] (TURK)]]></description>
+		<playlist_url><![CDATA[nStreamModul@www.sinemaizle.org@start@ALL CATEGORIES]]></playlist_url>
+	</channel>
+	
+	<channel>
+		<title><![CDATA[FİLİMİNİİZLE]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="filminiizle.png">  #-#  [external]]]></description>
+		<playlist_url><![CDATA[http://gegen-abzocke.com/xml/nstrim/turk/filminiizle/start.xml]]></playlist_url> 
+	</channel>
+          
+<!--<next_page_url text="Favorites"><![CDATA[favorites]]></next_page_url>--> 
+<!--<prev_page_url text="Favorites.xml"><![CDATA[nStreamFavorites.xml]]></prev_page_url>--> 
+<!--<search_on text="POISK"><![CDATA[search]]></search_on>-->
+</items>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+<playlist_name>Favorites</playlist_name>
+	<channel>
+			<title>Gosha99 XXX</title>
+			<playlist_url><![CDATA[http://gegen-abzocke.com/xml/xxx.xml]]></playlist_url>
+			<description><![CDATA[protected]]></description>
+			<protected><![CDATA[True]]></protected>
+	</channel>
+
+
+	<channel>
+			<title>Germet IPTV/VOD Playlist</title>
+			<playlist_url><![CDATA[http://nstream.germet.net/nStream.xml]]></playlist_url>
+			<description><![CDATA[]]></description>
+	</channel>
+
+
+	<channel>
+			<title>Miloshko</title>
+			<playlist_url><![CDATA[http://netplayer.tym.cz/a/VIDEOTEKA.xml]]></playlist_url>
+			<description><![CDATA[protected]]></description>
+			<protected><![CDATA[True]]></protected>
+	</channel>
+
+
+	<channel>
+			<title>VKONTAKTE SEARCH[MODUL]</title>
+			<playlist_url><![CDATA[nStreamModul@vkontaktesearch@start@VK SEARCH]]></playlist_url>
+			<description><![CDATA[]]></description>
+	</channel>
+
+
+	<channel>
+			<title>nYoutube Search</title>
+			<playlist_url><![CDATA[http://93.190.89.153/nstream/youtube.php]]></playlist_url>
+			<description><![CDATA[]]></description>
+	</channel>
+
+
+	<channel>
+			<title>youjizz.com</title>
+			<logo_30x30><![CDATA[http://s3.amazonaws.com/quarkbase_test.com/youjizz.com-logo.gif]]></logo_30x30>
+			<playlist_url><![CDATA[http://gegen-abzocke.com/xml/nstrim/youjizz/start.xml]]></playlist_url>
+			<description><![CDATA[<center><img src='http://s3.amazonaws.com/quarkbase_test.com/youjizz.com-logo.gif' />
+Free Hardcore Porn Videos</center>]]></description>
+	</channel>
+
+
+</items>

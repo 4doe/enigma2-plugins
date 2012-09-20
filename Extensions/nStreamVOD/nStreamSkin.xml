@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--  Skin: nStreamPlayer HD -->
+<skin>
+	<screen name ="nPlaylist" position="0,0" size="1280,720" backgroundColor="#41000000" flags="wfNoBorder" title="Playlist" > 
+	<widget name="feedlist" position="50,60" size="760,592" foregroundColorSelected="#ffffff" backgroundColor="#41000000" foregroundColor="#76addc" backgroundColorSelected="#41000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/x37.png"  enableWrapAround="1" zPosition="1" scrollbarMode="showOnDemand" transparent="0" />   
+	
+	<widget backgroundColor="#41000000" foregroundColor="#ffffff" position="826,428" size="460,236" name="description" font="RegularIPTV;22" />
+	<widget backgroundColor="#41000000" foregroundColor="#ffffff" position="60,30" size="1200,30" name="playlist" zPosition="1" font="RegularIPTV;30" />
+
+	<widget name="time" position="1140,60" size="114,44" font="RegularIPTV;48" foregroundColor="#ffffff" backgroundColor="#000000" />
+	<ePixmap position="1137,55" size="116,51" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/flip_clock4.png" zPosition="3" transparent="1" alphatest="blend" />
+
+	<widget name="poster" position="826,20" size="500,400" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/clear.png" zPosition="1" transparent="1" alphatest="blend" />
+
+	<widget name="info" font="RegularIPTV;22" backgroundColor="#41000000" foregroundColor="#ffffff" position="1140,120" size="114,370" /> 
+	
+	<widget name="version" position="890,665" zPosition="4" size="400,24" halign="left" font="RegularIPTV;22" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="" />
+
+	<ePixmap position="50,655" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<widget name = "pixmap2" position="254,655" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<widget name = "pixmap3" position="458,655" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<widget name = "pixmap4" position="662,655" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />		
+	<ePixmap position="55,658" size="25,25" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/red.png"    zPosition="3" transparent="1" alphatest="blend" />
+	<widget name = "pixmap2a" position="259,658" size="32,25" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/chminus.png"  zPosition="3" transparent="1" alphatest="blend" />
+	<widget name = "pixmap3a" position="463,658" size="32,25" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/chplus.png" zPosition="3" transparent="1" alphatest="blend" />
+	<widget name = "pixmap4a" position="667,658" size="32,25" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/stop.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="83,660" zPosition="4" size="150,24" halign="center" font="RegularIPTV;22" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="HOME" />
+	<widget name="chminus" position="285,660" zPosition="4" size="150,24" halign="center" font="RegularIPTV;22" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000"  />
+	<widget name="chplus" position="496,660" zPosition="4" size="150,24" halign="center" font="RegularIPTV;22" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000"  />
+	<widget name="stop" position="700,660" zPosition="4" size="150,24" halign="center" font="RegularIPTV;22" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000"  />		   
+</screen>
+
+
+
+
+<screen name ="nIPTVplayer" position="0,550" size="1280,190" backgroundColor="#41000000" flags="wfNoBorder" title="IPTVplayer">
+    <ePixmap position="80,4" size="72,36" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/72x36.png" zPosition="1" transparent="0" />
+	<widget position="84,7" halign="center" size="64,28" foregroundColor="#ffffff" zPosition="2" name="channel_number" transparent="1" font="RegularIPTV;34"/>
+	<widget position="160,7" size="650,34" foregroundColor="#ffffff" backgroundColor="#41000000" name="channel_name" font="RegularIPTV;34"/>
+	<widget position="805,10" size="300,26" halign="right" foregroundColor="#f4df8d" backgroundColor="#41000000" name="group" font="RegularIPTV;26"/>
+	<widget name="picon" position="120,68" size="35,35" backgroundColor="#41000000" />
+	<ePixmap position="80,50" size="117,72" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/pristavka.png" zPosition="10" transparent="1" alphatest="blend" />   	 
+	<widget position="300,56" size="650,25" foregroundColor="#ffffff" backgroundColor="#41000000" name="programm" font="RegularIPTV;24"/>
+
+	<ePixmap position="1115,4" size="72,36" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/72x36.png" zPosition="1" transparent="0" /> 
+	<widget  position="1118,9" size="66,26" foregroundColor="#ffffff" halign="center" zPosition="2" name="time_now" transparent="1" font="RegularIPTV;28"/>
+	<ePixmap position="1070,50" size="117,72" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/network.png" zPosition="1" transparent="1" alphatest="blend" /> 
+    <widget source="session.CurrentService" render="Label" zPosition="4" position="1107,128" size="55,22" halign="right" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+      <convert type="ServiceInfo">VideoWidth</convert>
+    </widget>
+    <eLabel text="x" zPosition="4" position="1168,128" size="15,22" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background" />
+    <widget source="session.CurrentService" render="Label" zPosition="4" position="1184,128" size="55,22" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+      <convert type="ServiceInfo">VideoHeight</convert>
+    </widget>	
+</screen>
+
+
+
+
+
+<screen name="nVODplayer" position="0,550" size="1280,190" backgroundColor="#41000000" flags="wfNoBorder" title="Videoplayer">
+	<ePixmap position="62,11" size="88,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/player.png" zPosition="1" transparent="0" />
+	<widget name="state" font="RegularIPTV;18" position="67,31" size="80,24" transparent="1" backgroundColor="#41000000" foregroundColor="#ffffff" zPosition="10" />
+	<widget name="cover" position="1107, 10" size="120,160" zPosition="1" transparent="1" alphatest="blend" />
+	<widget source="session.CurrentService" foregroundColor="#fa3d3d" render="Label" position="190,8"  size="90,20" font="RegularIPTV;18" halign="left" valign="center" backgroundColor="#06224f" transparent="1">
+		<convert type="ServicePosition">Position</convert>
+	</widget>
+	<ePixmap  pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/slider_1280x10_hbg.png" position="190,35" size="900,10" zPosition="1" />
+	<widget source="session.CurrentService" render="PositionGauge" backgroundColor="#206df9" position="190,35" size="900,10" zPosition="2" pointer="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/slider_1280x10_hfg.png:1290,0" transparent="1">
+		<convert type="ServicePosition">Gauge</convert>
+	</widget>
+	<widget source="session.CurrentService" foregroundColor="#ffffff" render="Label" position="190,50" size="800,70" font="RegularIPTV;30" backgroundColor="#41000000" transparent="1">
+		<convert type="ServiceName">Name</convert>
+	</widget>
+	<widget source="session.CurrentService" foregroundColor="#ffffff" render="Label" position="990,50" size="100,30" font="RegularIPTV;30" halign="right" backgroundColor="#41000000" transparent="1">
+		<convert type="ServicePosition">Length</convert>
+	</widget>
+	<widget source="session.CurrentService" foregroundColor="#206df9" render="Label" position="1000,8" size="90,20" zPosition="2" font="RegularIPTV;20" halign="right" valign="center" backgroundColor="#41000000" transparent="1">
+		<convert type="ServicePosition">Remaining</convert>
+	</widget>
+	<!-- <ePixmap position="1160,40" size="75,91" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/kino.png"    zPosition="3" transparent="1" alphatest="blend" /> -->
+
+	<!-- HELP GRAPHS -->
+	<ePixmap position="190,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<ePixmap position="193,128" size="32,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/play.png"  zPosition="3" transparent="1" alphatest="blend" />
+	<ePixmap position="227,128" size="32,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/pause.png"  zPosition="3" transparent="1" alphatest="blend" />		
+	<eLabel position="261,132" zPosition="4" size="118,20" halign="center" font="RegularIPTV;18" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="Play / Pause" /> 		
+
+	<ePixmap position="426,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<ePixmap position="429,128" size="32,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/blue.png"   zPosition="3" transparent="1" alphatest="blend" /> 
+	<widget name="cont_play" position="463,132" zPosition="4" size="152,20" halign="center" font="RegularIPTV;18" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="" /> 		
+
+	<ePixmap position="660,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<ePixmap position="663,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/1.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="690,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="-10s" /> 		
+
+	<ePixmap position="727,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/4.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="753,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="-1m" /> 		
+
+	<ePixmap position="790,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/7.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="817,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="-5m" /> 		
+
+	<ePixmap position="898,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />		
+	<ePixmap position="901,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/3.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="928,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="+10s" /> 		
+
+	<ePixmap position="965,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/6.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="991,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="+1m" /> 		
+
+	<ePixmap position="1026,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nStreamVOD/img/9.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="1053,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="+5m" />
+	
+    <widget source="session.CurrentService" render="Label" zPosition="4" position="27,128" size="55,22" halign="right" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+      <convert type="ServiceInfo">VideoWidth</convert>
+    </widget>
+    <eLabel text="x" zPosition="4" position="88,128" size="15,22" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background" />
+    <widget source="session.CurrentService" render="Label" zPosition="4" position="104,128" size="55,22" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+      <convert type="ServiceInfo">VideoHeight</convert>
+    </widget>
+	 		
+	</screen> 
+	       
+</skin>

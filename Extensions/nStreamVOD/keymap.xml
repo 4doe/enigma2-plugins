@@ -1,0 +1,57 @@
+<keymap>
+	<map context="nStreamPlayerIPTV">
+		<key id="KEY_OK" mapto="ok" flags="m" />
+		<key id="KEY_POWER" mapto="power" flags="m" />
+		<key id="KEY_LEFT" mapto="prevChannelIPTV" flags="m" />
+		<key id="KEY_RIGHT" mapto="nextChannelIPTV" flags="m" />
+		<key id="KEY_CHANNELUP" mapto="nextChannelIPTV" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="prevChannelIPTV" flags="m" />		
+		<key id="KEY_UP" mapto="toChListIPTV" flags="m" /> 
+		<key id="KEY_EXIT" mapto="toChListIPTV" flags="m" />
+		<key id="KEY_ESC" mapto="toChListIPTV" flags="m" />		
+		<key id="KEY_NEXT" mapto="nextAR" flags="m" />
+		<key id="KEY_PREVIOUS" mapto="prevAR" flags="m" />		
+	</map>
+
+	<map context="nStreamPlayerPlaylist">
+		<key id="KEY_OK" mapto="ok" flags="m" />
+		<key id="KEY_POWER" mapto="power" flags="m" />					
+		<key id="KEY_RED" mapto="homePlaylist" flags="m" />
+		<key id="KEY_YELLOW" mapto="historyPlaylist" flags="m" />
+		<key id="KEY_PLAY" mapto="startIPTV" flags="m" />
+		<key id="KEY_PLAYPAUSE" mapto="startIPTV" flags="m" />
+		<key id="KEY_GREEN" mapto="startIPTV" flags="m" />
+		<key id="KEY_BLUE" mapto="backToVideo" flags="m" />
+		<key id="KEY_CHANNELUP" mapto="prevPlaylist" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="nextPlaylist" flags="m" />
+		<key id="KEY_EXIT" mapto="exitPlugin" flags="m" />
+		<key id="KEY_ESC" mapto="exitPlugin" flags="m" />
+		<key id="KEY_INFO" mapto="moreInfo" flags="m" />
+		<key id="KEY_STOP" mapto="search" flags="m" />
+		<key id="KEY_NEXT" mapto="addChannelToFavorites" flags="m" />
+		<key id="KEY_PREVIOUS" mapto="removeChannelFromFavorites" flags="m" />
+		<key id="KEY_MENU" mapto="taskManager" flags="m" />
+		<key id="KEY_TV" mapto="search" flags="m" />
+	</map>		
+
+	<map context="nStreamPlayerVOD">
+		<key id="KEY_OK" mapto="ok" flags="m" />
+		<key id="KEY_POWER" mapto="power" flags="m" />		
+		<key id="KEY_EXIT" mapto="exitVOD" flags="m" />
+		<key id="KEY_ESC" mapto="exitVOD" flags="m" />
+ 		<key id="KEY_UP" mapto="exitVOD" flags="m" /> 		
+		<key id="KEY_INFO" mapto="moreInfoVOD" flags="m" />
+		<key id="KEY_RED" mapto="record" flags="m" />
+		<key id="KEY_STOP" mapto="stopVOD" flags="m" />
+		<key id="KEY_BLUE" mapto="timeshift_autoplay" flags="m" />   
+		<key id="KEY_LEFT" mapto="prevVideo" flags="m" />
+		<key id="KEY_RIGHT" mapto="nextVideo" flags="m" />
+		<key id="KEY_TV" mapto="stopVOD" flags="m" />
+		<key id="KEY_RECORD" mapto="timeshift" flags="m" />
+		<key id="KEY_CHANNELUP" mapto="nextVideo" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="prevVideo" flags="m" />
+		<key id="KEY_NEXT" mapto="nextAR" flags="m" />
+		<key id="KEY_PREVIOUS" mapto="prevAR" flags="m" />				 
+	</map>
+	
+</keymap>

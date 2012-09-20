@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>                                     
+<!-- !!!пустое поле означает неиспользование данной функции!!!
+
+STARTPORTAL 
+в это поле вводится линк на стартовый плейлист, который будет грузится во время старта плагина. 
+если поле пустое то загрузится стартовый плейлист  nStreamVOD.xml
+пример: <startportal><![CDATA[http://gegen-abzocke.com/xml/portal2.xml]]></startportal>
+-->	
+	<startportal><![CDATA[]]></startportal>
+<!-- RTMPGW 
+использование RTMPGW для просмотра rtmp стримов
+START plugin
+		os.popen("/usr/bin/rtmpgw -g 1234 -v 2>/dev/null &")
+STOP plugin 
+		os.popen("killall -9 rtmpgw")
+
+в этом случае происходит преобразование URL
+rtmp://217.199.218.151:1935/podsekaiTV/chanelHD -> http://127.0.0.1:1234/?r=rtmp://217.199.218.151:1935/podsekaiTV/chanelHD
+у меня работает только так (Xtrend 9200 AAF 1.0)
+1 включено 
+пусто выключено			
+-->	  
+	<use_rtmpw>1</use_rtmpw>
+<!--  eServiceReference ID при просмотре IPTV
+если поле пусто то берется стандарт 4097
+при использовании servicewebts.so от technic для быстрого переключения каналов
+4114 - old enigma version(<11.2010)   servicewebts.so (90KB)
+4112 - new enigma version(>11.2010)   servicewebts.so (60KB)
+-->
+	<esr_id>4114</esr_id>
+<!--  AspectRatioSetting ID 0-6 при просмотре
+
+"4_3_letterbox":0
+"4_3_panscan":1
+"16_9":2
+"16_9_always":3
+"16_10_letterbox":4
+"16_10_panscan":5
+"16_9_letterbox":6
+пример: <ar_id_start>2</ar_id_start>
+пусто => выключено
+
+после выхода из плагина эти настройки будут возвращены в то положение <ar_id_end>5</ar_id_end>
+пусто => выключено
+на моем имидже 5ка возвращает формат экрана в положение LETTERBOX(4х3+черные полосы по бокам)
+-->
+	<ar_id_start></ar_id_start>
+	<ar_id_end></ar_id_end>
+<!--
+если это поле не пусто то в тмп паку ресивера будет загружатся каждая картинка, 
+если пусто то все картинки будут сораняться в один файл и перетираться после скачки
+пример: <images_tmp>1</images_tmp> 
+пусто => выключено
+-->	
+	<images_tmp>1</images_tmp>
+<!--
+тк у некоторых ресиверов имеется ограничение в памяти, в этом случае можно изменить путь к сохранению файлов. 
+если поле пусто, то файлы будут сохраняться во временную папку /tmp
+пример: <images_tmp_path>/media/hdd/tmp</images_tmp_path>
+-->	
+	<images_tmp_path></images_tmp_path>
+
+<!--
+DELETE IMAGES (*.JPG) at EXIT
+пример: <delete_images>1</delete_images>  
+если поле пусто, не будут удаляться
+-->	                                                                             
+	<delete_images>1</delete_images>	
+<!--
+MOVIE DOWNLOAD если поле пусто, то файлы будут сохраняться папку /hdd/movie
+пример: <moviefolder>/media/hdd/tmp</moviefolder>
+-->                                                                                
+	<moviefolder></moviefolder>	
+	
+<!--
+   <channel>
+	<title>Gosha99 VOD Playlist 2</title>
+	<logo_30x30></logo_30x30>
+	<description><![CDATA[]]></description>
+	<playlist_url><![CDATA[http://gegen-abzocke.com/xml/portal2.xml]]></playlist_url>
+	<protected>True</protected> 
+</channel>
+пароль для закрытых плейлистов, по умолчанию(если поле пусто): 1234 
+-->	  
+<password>1234</password>  
+
+<!-- ADDITIONAL TO MACADRESS AUTORISATION --> 
+<security_key></security_key> 
+<!-- ADDITIONAL TO MACADRESS AUTORISATION for RECIVER THEY HAVE ONE MAC for ALL sample: Gigablue --> 
+
+<!-- <disable_audioselector>True</disable_audioselector> FIX for RUDREAM -->  
+</items>    

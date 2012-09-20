@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+  <playlist_name><![CDATA[nStreamVOD Portal]]></playlist_name>
+
+	<channel>
+		<title><![CDATA[Gosha99 VOD Playlist]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="gosha.png">]]></description>
+		<playlist_url><![CDATA[http://gegen-abzocke.com/xml/portal.xml]]></playlist_url> 
+	</channel>
+
+	<channel>
+		<title><![CDATA[Pawlodar Kids-Portal]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="arjlover.png"> #-# pawlodar]]></description>
+		<playlist_url><![CDATA[http://www.sig-340.de/enigma2/mult.xml]]></playlist_url>
+	</channel>
+	
+	<channel>       
+		<title><![CDATA[Pawlodar Radio Playlist]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="radio.png"> #-# pawlodar]]></description>
+		<playlist_url><![CDATA[http://www.sig-340.de/enigma2/radio.php]]></playlist_url>
+	</channel>
+
+	<channel>
+		<title><![CDATA[Gosha99 XXX]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="xxx.png">  #-# protected]]></description>
+		<playlist_url><![CDATA[http://gegen-abzocke.com/xml/xxx.xml]]></playlist_url>
+		<protected>True</protected> 
+	</channel>
+	
+	<channel>
+		<title><![CDATA[Germet IPTV/VOD Playlist]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="germet.png">]]></description>
+		<playlist_url><![CDATA[http://nstream.germet.net/nStream.xml]]></playlist_url>
+	</channel>	 
+		
+	<channel>       
+		<title><![CDATA[International Portal]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="international.png">]]></description>
+		<playlist_url><![CDATA[nStreamInternational.xml]]></playlist_url>
+	</channel>
+
+	<channel>
+		<title><![CDATA[nXvideos]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="xxx.png"> #-# [MODUL] protected]]></description>
+		<playlist_url><![CDATA[nStreamModul@xvideos.com@start@XVIDEOS]]></playlist_url>
+		<protected>yes</protected>
+	</channel>
+	
+	<channel>       
+		<title><![CDATA[nVkontakte Search]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="vkontakte_video_logo.png">vkontakte  #-# [MODUL] protected]]></description>
+		<playlist_url><![CDATA[nStreamModul@vkontaktesearch@start@VK SEARCH]]></playlist_url>
+		<protected>True</protected>
+	</channel>
+
+	<channel>
+		<title><![CDATA[nYoutube Search]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="youtube.png">]]></description>
+		<playlist_url><![CDATA[http://93.190.89.153/nstream/youtube.php]]></playlist_url>
+	</channel>
+
+	<channel>
+		<title><![CDATA[nHoroshoTV VOD Series]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="horoshotv.png">]]></description>
+		<playlist_url><![CDATA[http://93.190.89.153/nstream/horoshotv.php]]></playlist_url>
+	</channel>
+		
+   	<channel>       
+		<title><![CDATA[nKinomaxpro]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="kinomax.png">  #-# [MODUL]]]></description>
+		<playlist_url><![CDATA[nStreamModul@kinomaxpro.com@start@KINOMAXPRO ALL CATEGORIES]]></playlist_url>
+	</channel>
+	
+   	<channel>       
+		<title><![CDATA[nVizorTV]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[<img src="vizortv.png">  #-# [MODUL]]]></description>
+		<playlist_url><![CDATA[nStreamModul@vizor.tv@start@VIZOR.TV ALL CATEGORIES]]></playlist_url>
+	</channel>	 
+<!--	
+	<channel>       
+		<title><![CDATA[m3u radio external]]></title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[]]></description>
+		<playlist_url><![CDATA[nStreamModul@http://streaming01.sr-online.de/sr1_1.m3u@m3u@sr-online пРИсТавка пРИсТавка пРИсТавка пРИсТавка пРИсТавка пРИсТавкапРИсТавка]]></playlist_url>
+	</channel>
+-->	<!--
+	<channel>       
+		<title>movie1.sinemaizle.org</title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[http://movie1.sinemaizle.org/Mozartin-Kiz-Kardesi.flv]]></description>
+		<stream_url><![CDATA[http://movie1.sinemaizle.org/Mozartin-Kiz-Kardesi.flv]]></stream_url>
+	</channel>		
+
+m3u internal  
+	<channel>       
+		<title>MOETV M3U [MODUL]</title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[]]></description>
+		<playlist_url><![CDATA[nStreamModul@moetv.tv.m3u@m3u@MOETV]]></playlist_url>
+	</channel>
+TS quickzapping	
+	<channel>       
+		<title>MOETV M3U [MODUL]</title>
+		<logo_30x30></logo_30x30>
+		<description><![CDATA[]]></description>
+		<playlist_url><![CDATA[nStreamModul@moetv.tv.m3u@m3uTS@MOETV]]></playlist_url>
+	</channel>					   	
+
+	
+      
+<next_page_url text="Favorites"><![CDATA[favorites]]></next_page_url>
+<prev_page_url text="Favorites.xml"><![CDATA[nStreamFavorites.xml]]></prev_page_url>
+<search_on text="POISK"><![CDATA[search]]></search_on>
+-->
+</items>
