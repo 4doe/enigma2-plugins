@@ -1,79 +1,79 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/nStreamVOD/img
+installdir = $(LIBDIR)/python/Plugins/Extensions/nStreamVOD/img
 
 SUBDIRS = playlist 
 
-dist_pkgdata_DATA = \
-0.png \
-1.png \
-2.png \
-3.png \
-4.png \
-5.png \
-6.png \
-72x36.png \
-7.png \
-80x50.png \
-8.png \
-9.png \
-archive.png \
-blue.png \
-chminus.png \
-chplus.png \
-clear.png \
-clock.png \
-epg.png \
-exit.png \
-ff.png \
-flag.png \
-flip_calender.png \
-flip_clock4.png \
-green.png \
-help.png \
-kino.png \
-left_0.png \
-left.png \
-logo.jpg \
-menu.png \
-network.png \
-ovm.png \
-pause.png \
-picon_kartinatv117x72.png \
-player.png \
-play.png \
-position_pointer.png \
-pristavka.png \
-radio.png \
-rahmen126x30.png \
-rahmen_big.png \
-rahmen.png \
-rec_player.png \
-rec.png \
-rec_small.png \
-red.png \
-right_0.png \
-right.png \
-rw.png \
-slider_1280x10_hbg.png \
-slider_1280x10_hfg.png \
-stars_gold.png \
-stars.png \
-stop.png \
-tab_active.png \
-tab_inactive.png \
-tab_line.png \
-top.png \
-tv.png \
-video.png \
-vkey_backspace.png \
-vkey_bg.png \
-vkey_clr.png \
-vkey_esc.png \
-vkey_icon.png \
-vkey_ok.png \
-vkey_sel.png \
-vkey_shift.png \
-vkey_shift_sel.png \
-vkey_space.png \
-x37.png \
-x37small.png \
-yellow.png
+install_DATA = \
+		0.png \
+		1.png \
+		2.png \
+		3.png \
+		4.png \
+		5.png \
+		6.png \
+		72x36.png \
+		7.png \
+		80x50.png \
+		8.png \
+		9.png \
+		archive.png \
+		blue.png \
+		chminus.png \
+		chplus.png \
+		clear.png \
+		clock.png \
+		epg.png \
+		exit.png \
+		ff.png \
+		flag.png \
+		flip_calender.png \
+		flip_clock4.png \
+		green.png \
+		help.png \
+		kino.png \
+		left_0.png \
+		left.png \
+		logo.jpg \
+		menu.png \
+		network.png \
+		ovm.png \
+		pause.png \
+		picon_kartinatv117x72.png \
+		player.png \
+		play.png \
+		position_pointer.png \
+		pristavka.png \
+		radio.png \
+		rahmen126x30.png \
+		rahmen_big.png \
+		rahmen.png \
+		rec_player.png \
+		rec.png \
+		rec_small.png \
+		red.png \
+		right_0.png \
+		right.png \
+		rw.png \
+		slider_1280x10_hbg.png \
+		slider_1280x10_hfg.png \
+		stars_gold.png \
+		stars.png \
+		stop.png \
+		tab_active.png \
+		tab_inactive.png \
+		tab_line.png \
+		top.png \
+		tv.png \
+		video.png \
+		vkey_backspace.png \
+		vkey_bg.png \
+		vkey_clr.png \
+		vkey_esc.png \
+		vkey_icon.png \
+		vkey_ok.png \
+		vkey_sel.png \
+		vkey_shift.png \
+		vkey_shift_sel.png \
+		vkey_space.png \
+		x37.png \
+		x37small.png \
+		yellow.png

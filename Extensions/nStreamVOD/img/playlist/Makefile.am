@@ -1,6 +1,6 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/nStreamVOD/playlist
+installdir = $(LIBDIR)/python/Plugins/Extensions/nStreamVOD/playlist
 
-dist_pkgdata_DATA = \
+install_DATA = \
 		arjlover.png \
 		filminiizle.png \
 		filmsehri.png \

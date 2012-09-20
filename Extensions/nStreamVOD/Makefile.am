@@ -1,4 +1,4 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/nStreamVOD
+installdir = $(LIBDIR)/python/Plugins/Extensions/nStreamVOD
 
 SUBDIRS = Moduls img  
 
@@ -20,7 +20,7 @@ install_PYTHON = \
 		VirtualKeyBoardRUS.pyc \
 		VirtualKeyBoardRUS.pyo
 
-dist_pkgdata_DATA = \
+install_DATA = \
 		plugin.png \
 		nStreamConfig.xml \
 		MyriadPro-Regular.otf \

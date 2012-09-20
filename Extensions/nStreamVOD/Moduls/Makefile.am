@@ -1,4 +1,4 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/nStreamVOD/Moduls
+installdir = $(LIBDIR)/python/Plugins/Extensions/nStreamVOD/Moduls
 
 install_PYTHON = \
 		nStreamModuls.py \
