@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/nStreamVOD/img
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/nStreamVOD/img
 
 SUBDIRS = playlist 
 

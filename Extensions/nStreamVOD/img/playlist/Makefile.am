@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/nStreamVOD/playlist
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/nStreamVOD/playlist
 
 install_DATA = \
 		arjlover.png \
