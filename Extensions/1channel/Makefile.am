@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/1channel
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/1channel
 
 install_PYTHON = \
 	__init__.py \

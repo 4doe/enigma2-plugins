@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide
 
 SUBDIRS = Cool3D CoolSkin locale 
 
