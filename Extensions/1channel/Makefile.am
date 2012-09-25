@@ -1,4 +1,4 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/1channel
+installdir = $(LIBDIR)/python/Plugins/Extensions/1channel
 
 install_PYTHON = \
 	__init__.py \

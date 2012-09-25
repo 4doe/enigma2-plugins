@@ -48,6 +48,7 @@ Extensions/nStreamVOD/Makefile
 Extensions/nStreamVOD/img/Makefile
 Extensions/nStreamVOD/img/playlist/Makefile
 Extensions/nStreamVOD/Moduls/Makefile
+Extensions/1channel/Makefile
 Extensions/CoolTVGuide/Makefile
 Extensions/CoolTVGuide/Cool3D/Makefile
 Extensions/CoolTVGuide/Cool3D/Menu/Makefile
@@ -70,5 +71,4 @@ Extensions/CoolTVGuide/locale/no/Makefile
 Extensions/CoolTVGuide/locale/no/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/pl/Makefile
 Extensions/CoolTVGuide/locale/pl/LC_MESSAGES/Makefile
-Extensions/1channel/Makefile
 ])

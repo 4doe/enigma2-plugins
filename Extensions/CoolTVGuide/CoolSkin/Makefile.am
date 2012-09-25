@@ -1,6 +1,6 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/CoolTVGuide/CoolSkin
+installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/CoolSkin
 
-dist_install_DATA = \
+install_DATA = \
 	colour.txt \
 	CoolEasyGuide_1024.xml \
 	CoolEasyGuide_1280.xml \

@@ -1,19 +1,19 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/CoolTVGuide/Standard
+installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/Cool3D/Standard
 
-dist_install_DATA = \
-					CoolBack.png \
-					CoolFreeTuner.png \
-					CoolNow.png \
-					CoolPicon.png \
-					CoolPiconSelectS.png \
-					CoolPreRec.png \
-					CoolRec.png \
-					CoolSelect.png \
-					CoolBackS.png \
-					CoolFreeTunerS.png \
-					CoolNowS.png \
-					CoolPiconSelect.png \
-					CoolPiconS.png \
-					CoolPreRecS.png \
-					CoolRecS.png \
-					CoolSelectS.png
+install_DATA = \
+CoolBack.png \
+CoolBackS.png \
+CoolFreeTuner.png \
+CoolFreeTunerS.png \
+CoolNow.png \
+CoolNowS.png \
+CoolPicon.png \
+CoolPiconS.png \
+CoolPiconSelect.png \
+CoolPiconSelectS.png \
+CoolPreRec.png \
+CoolPreRecS.png \
+CoolRec.png \
+CoolRecS.png \
+CoolSelect.png \
+CoolSelectS.png

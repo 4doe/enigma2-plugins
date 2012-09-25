@@ -1,4 +1,4 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/CoolTVGuide
+installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide
 
 SUBDIRS = Cool3D CoolSkin locale 
 
@@ -11,4 +11,4 @@ install_PYTHON = \
 	CoolSingleGuide.pyo \
 	CoolTVGuide.png 
 
-dist_install_DATA = keymap.xml maintainer.info
+install_DATA = keymap.xml maintainer.info

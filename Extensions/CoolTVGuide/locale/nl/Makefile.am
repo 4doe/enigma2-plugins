@@ -1,3 +1,3 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/CoolTVGuide/locale/nl
+installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/locale/nl
 
 SUBDIRS = LC_MESSAGES 
