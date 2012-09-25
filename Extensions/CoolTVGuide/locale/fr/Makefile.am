@@ -1,3 +1,3 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/locale/fr
+installdir = $(LIBDIR)/enimga2/python/Plugins/Extensions/CoolTVGuide/locale/fr
 
 SUBDIRS = LC_MESSAGES 

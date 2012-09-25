@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/CoolSkin
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide/CoolSkin
 
 install_DATA = \
 	colour.txt \
