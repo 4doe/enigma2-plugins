@@ -1,1 +1,1 @@
-SUBDIRS = UShare MyTube nStreamVOD
+SUBDIRS = 1channel CoolTVGuide MyTube nStreamVOD UShare 
