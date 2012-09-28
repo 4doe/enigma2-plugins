@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D
 
 SUBDIRS = Menu Standard 
 

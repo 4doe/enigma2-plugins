@@ -1,3 +1,3 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/Menu
+installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/Cool3D/Menu
 
 install_DATA = CoolEasyGuide.png  CoolFrame.png  CoolMultiGuide.png  CoolSingleGuide.png  CoolTVGuide.png  CoolUniGuide.png 
