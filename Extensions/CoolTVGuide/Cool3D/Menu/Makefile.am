@@ -1,3 +1,8 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/Cool3D/Menu
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/Menu
 
-install_DATA = CoolEasyGuide.png  CoolFrame.png  CoolMultiGuide.png  CoolSingleGuide.png  CoolTVGuide.png  CoolUniGuide.png 
+install_DATA = CoolEasyGuide.png \
+			   CoolFrame.png \
+			   CoolMultiGuide.png \
+			   CoolSingleGuide.png \
+			   CoolTVGuide.png \
+			   CoolUniGuide.png 

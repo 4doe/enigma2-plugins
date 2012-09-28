@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/python/Plugins/Extensions/CoolTVGuide/Cool3D/Standard
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/Standard
 
 install_DATA = \
 CoolBack.png \
