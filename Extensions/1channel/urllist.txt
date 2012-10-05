@@ -1,4 +1,6 @@
-# Ovo je spisak filmova koj 1channel plugin koristi, 
+# Plugin podrzava: putlocker, sochare, novamov, nowvideo i divixstage linkove
+# u ovoj listi...
+# Ovo je spisak filmova koje 1channel plugin ima u userlist-u , 
 # sve linije koje pocinju sa ljestvicama(#) se ignoriraju.
 # Bitno je samo da filmovi uneseni u listu budu uneseni na sljedeci nacin;
 # ime "filma; link", pazite da je tocka zarez(;) zaljeplena za ime filma pa
@@ -13,3 +15,5 @@ Into The Abyss 2011; http://www.putlocker.com/file/82DCBF60E1A66CFC
 Project.X; http://www.putlocker.com/file/26C47F5B8FE4A02A
 rb-mbe.avi; http://www.putlocker.com/file/9F17AD54BEEF6716
 Nikita.S02E16; http://www.putlocker.com/file/4FD96D6BF943D5C0
+The.Avengers.2012.TS; http://www.novamov.com/video/k1r6lqsbfi2xd
+A.Thousand.Words.2012; http://www.sockshare.com/file/8F9C5D0BA72646EE
