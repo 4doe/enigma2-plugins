@@ -15,4 +15,4 @@ install_DATA = \
 				keymap.xml \
 				lock_error.png \
 				lock_off.png \
-				sat.png \
+				sat.png 
