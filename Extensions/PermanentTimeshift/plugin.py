@@ -66,7 +66,9 @@ language.addCallback(localeInit)
 ##############################
 
 config.plugins.pts = ConfigSubsection()
-config.plugins.pts.enabled = ConfigYesNo(default = True)
+# [iq
+config.plugins.pts.enabled = ConfigYesNo(default = False)
+# iq]
 config.plugins.pts.maxevents = ConfigInteger(default=5, limits=(1, 99))
 config.plugins.pts.maxlength = ConfigInteger(default=180, limits=(5, 999))
 config.plugins.pts.startdelay = ConfigInteger(default=5, limits=(5, 999))
@@ -1540,7 +1542,7 @@ def keyNumberGlobal(self, number):
 
 	InfoBarNumberZap_keyNumberGlobal(self, number)
 	if number and config.plugins.pts.enabled.value and self.timeshift_enabled and not self.isSeekable():
-		 self.session.openWithCallback(self.numberEntered, NumberZap, number, self.searchNumber)
+		self.session.openWithCallback(self.numberEntered, NumberZap, number)
 
 InfoBarNumberZap.keyNumberGlobal = keyNumberGlobal
 
