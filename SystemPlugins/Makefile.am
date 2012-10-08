@@ -1,1 +1,1 @@
-SUBDIRS = NetworkWizard SatelliteEquipmentControl 
+SUBDIRS = NetworkWizard 

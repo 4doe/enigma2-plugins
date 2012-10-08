@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/enigma2/python/Plugins/SystemPlugins/SatelliteEquipmentControl
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/SatelliteEquipmentControl
 
 install_PYTHON = \
 				__init__.py \

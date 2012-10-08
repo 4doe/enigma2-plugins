@@ -1,1 +1,1 @@
-SUBDIRS = 1channel CoolTVGuide MyTube nStreamVOD UShare PermanentTimeshift TSsatEditor
+SUBDIRS = 1channel CoolTVGuide MyTube nStreamVOD UShare PermanentTimeshift TSsatEditor SatelliteEquipmentControl
