@@ -71,4 +71,17 @@ Extensions/CoolTVGuide/locale/no/Makefile
 Extensions/CoolTVGuide/locale/no/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/pl/Makefile
 Extensions/CoolTVGuide/locale/pl/LC_MESSAGES/Makefile
+Extensions/PermanentTimeshift/Makefile
+Extensions/PermanentTimeshift/images/Makefile
+Extensions/PermanentTimeshift/locale/Makefile
+Extensions/PermanentTimeshift/locale/de/Makefile
+Extensions/PermanentTimeshift/locale/de/LC_MESSAGES/Makefile
+Extensions/PermanentTimeshift/locale/it/Makefile
+Extensions/PermanentTimeshift/locale/it/LC_MESSAGES/Makefile
+Extensions/PermanentTimeshift/locale/pl/Makefile
+Extensions/PermanentTimeshift/locale/pl/LC_MESSAGES/Makefile
+Extensions/PermanentTimeshift/locale/ru/Makefile
+Extensions/PermanentTimeshift/locale/ru/LC_MESSAGES/Makefile
+Extensions/PermanentTimeshift/locale/sk/Makefile
+Extensions/PermanentTimeshift/locale/sk/LC_MESSAGES/Makefile
 ])
