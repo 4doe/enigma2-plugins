@@ -84,4 +84,6 @@ Extensions/PermanentTimeshift/locale/ru/Makefile
 Extensions/PermanentTimeshift/locale/ru/LC_MESSAGES/Makefile
 Extensions/PermanentTimeshift/locale/sk/Makefile
 Extensions/PermanentTimeshift/locale/sk/LC_MESSAGES/Makefile
+Extensions/TSsatEditor/Makefile
+Extensions/TSsatEditor/ddbuttons/Makefile
 ])
