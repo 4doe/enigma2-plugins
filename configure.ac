@@ -86,5 +86,6 @@ Extensions/PermanentTimeshift/locale/sk/Makefile
 Extensions/PermanentTimeshift/locale/sk/LC_MESSAGES/Makefile
 Extensions/TSsatEditor/Makefile
 Extensions/TSsatEditor/ddbuttons/Makefile
+SystemPlugins/Makefile
 SystemPlugins/NetworkWizard/Makefile
 ])
