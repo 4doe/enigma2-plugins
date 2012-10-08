@@ -88,4 +88,5 @@ Extensions/TSsatEditor/Makefile
 Extensions/TSsatEditor/ddbuttons/Makefile
 SystemPlugins/Makefile
 SystemPlugins/NetworkWizard/Makefile
+SystemPlugins/SatelliteEquipmentControl/Makefile
 ])
