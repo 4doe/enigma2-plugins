@@ -43,4 +43,4 @@ install_DATA = \
 			CoolTinyGuide_1280.xml \
 			CoolTinyGuide_720.xml \
 			colour.txt \
-			oled screens.txt 
+			oled\ screens.txt 
