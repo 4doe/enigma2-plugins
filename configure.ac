@@ -53,6 +53,7 @@ Extensions/CoolTVGuide/Makefile
 Extensions/CoolTVGuide/Cool3D/Makefile
 Extensions/CoolTVGuide/Cool3D/Menu/Makefile
 Extensions/CoolTVGuide/Cool3D/Standard/Makefile
+Extensions/CoolTVGuide/Cool3D/MyDesign/Makefile
 Extensions/CoolTVGuide/CoolSkin/Makefile
 Extensions/CoolTVGuide/locale/Makefile
 Extensions/CoolTVGuide/locale/bg/Makefile
@@ -65,12 +66,16 @@ Extensions/CoolTVGuide/locale/fa/Makefile
 Extensions/CoolTVGuide/locale/fa/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/fr/Makefile
 Extensions/CoolTVGuide/locale/fr/LC_MESSAGES/Makefile
+Extensions/CoolTVGuide/locale/it/Makefile
+Extensions/CoolTVGuide/locale/it/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/nl/Makefile
 Extensions/CoolTVGuide/locale/nl/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/no/Makefile
 Extensions/CoolTVGuide/locale/no/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/pl/Makefile
 Extensions/CoolTVGuide/locale/pl/LC_MESSAGES/Makefile
+Extensions/CoolTVGuide/locale/sk/Makefile
+Extensions/CoolTVGuide/locale/sk/LC_MESSAGES/Makefile
 Extensions/PermanentTimeshift/Makefile
 Extensions/PermanentTimeshift/images/Makefile
 Extensions/PermanentTimeshift/locale/Makefile
@@ -90,6 +95,3 @@ Extensions/SatelliteEquipmentControl/Makefile
 SystemPlugins/Makefile
 SystemPlugins/NetworkWizard/Makefile
 ])
-#Extensions/PPanel/Makefile
-#Extensions/PPanel/data/Makefile
-

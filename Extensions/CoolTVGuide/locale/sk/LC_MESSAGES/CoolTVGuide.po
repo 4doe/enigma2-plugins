@@ -1,0 +1,271 @@
+#
+#   *******************************
+#   *  Cool TV Guide by Coolman   *
+#   *  3D EPG-Plugin for Enigma2  *
+#   *  Coded by Coolman (c) 2012  *
+#   *******************************
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cool TV Guide V5.7\n"
+"POT-Creation-Date: 2012-06-01 20:50+0100\n"
+"PO-Revision-Date: 2012-06-01 00:26+0100\n"
+"Last-Translator: Coolman <Coolman@uni.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+
+msgid "Cool 3D"
+msgstr "Cool 3D"
+
+msgid "Show Picon (Yes) (need restart)"
+msgstr "Zobraz picony (Áno) (treba reštart)"
+
+msgid "Show CoolPico (Yes) (need restart)"
+msgstr "Zobraz CoolPico (Áno) (treba reštart)"
+
+msgid "Picon Height (60), (54), (54)"
+msgstr "Picony - výška (60), (54), (54)"
+
+msgid "Picon Item Height (60), (54), (54)"
+msgstr "Picony - výška položky (60), (54), (54)"
+
+msgid "CoolPico Height (30), (27), (27)"
+msgstr "CoolPico - výška (30), (27), (27)"
+
+msgid "CoolPico Item Height (30), (27), (27)"
+msgstr "CoolPico - výška položky (30), (27), (27)"
+
+msgid "Left Section Width (110), (75), (75)"
+msgstr "Šírka stĺpca vľavo (110), (75), (75)"
+
+msgid "Left Section Width (190), (110), (110)"
+msgstr "Šírka stĺpca vľavo (190), (110), (110)"
+
+msgid "Channel 1 at Start (No)"
+msgstr "Štartovať na kanáli č.1 (Nie)"
+
+msgid "Red Button (Zap)"
+msgstr "Červené tlačítko (Prepnúť)"
+
+msgid "LongRed Button (ZAP+Exit)"
+msgstr "Červené tlačítko - dlho (Prepnúť+Koniec)"
+
+msgid "Green Button (Timer)"
+msgstr "Zelené tlačítko (Časovač)"
+
+msgid "LongGreen Button (Autotimer)"
+msgstr "Zelené tlačítko - dlho (Autočasovač)"
+
+msgid "Yellow Button (GuideSwitch)"
+msgstr "Žlté tlačítko (ZmenaŠtýlu)"
+
+msgid "LongYellow Button (Bouquetlist)"
+msgstr "Žlté tlačítko - dlho (Zoznam kanálov)"
+
+msgid "Blue Button (CoolSearch)"
+msgstr "Modré tlačítko (CoolHľadať)"
+
+msgid "LongBlue Button (CoolInfoBox)"
+msgstr "Modré tlačítko - dlho (CoolInfoBox)"
+
+msgid "OK Button (Cool Info Guide)"
+msgstr "Tlačítko OK (Informácie o kanáli)"
+
+msgid "LongOK Button"
+msgstr "Tlačítko OK - dlho"
+
+msgid "Info Button (EPG Select)"
+msgstr "Info/EPG tlačítko (výber EPG)"
+
+msgid "LongInfo Button"
+msgstr "Info/EPG tlačítko - dlho"
+
+msgid "Event 60 Fontsize (18), (15), (15)"
+msgstr "Relácia 60 - veľkosť písma (18), (15), (15)"
+
+msgid "Event 30 Fontsize (18), (15), (15)"
+msgstr "Relácia 30 - veľkosť písma (18), (15), (15)"
+
+msgid "Left Fontsize (22), (18), (16) (need restart)"
+msgstr "Vľavo - veľkosť písma (22), (18), (16) (treba reštart)"
+
+msgid "Timeline Fontsize (20), (18), (16) (need restart)"
+msgstr "Časová os - veľkosť písma (20), (18), (16) (treba reštart)"
+
+msgid "Right 60 Font Center (Yes)"
+msgstr "Vpravo 60 - text bude uprostred (Áno)"
+
+msgid "Time Scale (180)"
+msgstr "Časová os (180)"
+
+msgid "Bouquet at Start (No)"
+msgstr "Výber Bouquetu pri štarte (Nie)"
+
+msgid "Skip Empty Services (No) (need restart)"
+msgstr "Preskakovať prázdne kanály (Nie) (treba reštart)"
+
+msgid "Standard for (HD), (XD), (SD) Skin"
+msgstr "Štandard pre (HD), (XD), (SD) vzhľad"
+
+msgid "Press ( < OK > ) to change your Buttons !!!"
+msgstr "Stlač  ( < OK > ) pre zmenu priradenia tlačítok !!!"
+
+msgid " No function with your Image"
+msgstr "Nefunguje v Tvojej verzii image"
+
+msgid "   check Autotimer ?"
+msgstr "   overiť Autočasovač ?"
+
+msgid "-- please check your Timer --"
+msgstr "-- Prosím skontroluj časovače --"
+
+msgid "has moved"
+msgstr "bol presunutý"
+
+msgid "is disabled"
+msgstr "je zakázaný"
+
+msgid "configuration of all Guides for your special wishes"
+msgstr "Nastavenie všetkých EPG Guide na Tvoje želanie"
+
+msgid "Cool Easy-Uni Guide use Yellow/Blue for Time -/+"
+msgstr "Cool Easy-Uni Guide použi žlté/modré na zmenu času -/+"
+
+msgid "Cool Easy-Uni Guide show Channel Number"
+msgstr "Cool Easy-Uni Guide zobraz číslo kanálu"
+
+msgid "Cool TimerAlarm check if Timer has changed"
+msgstr "Cool TimerAlarm kontrola zmeny časovačov"
+
+msgid "Cool TimerAlarm check if Timer is deaktivated"
+msgstr "Cool TimerAlarm kontrola či sú časovače vypnuté"
+
+msgid "Start Cool TV Guide with Red Button"
+msgstr "Spusti Cool TV Guide Červeným tlačítkom"
+
+msgid "Start Cool Single Guide with Green Button"
+msgstr "Spusti Cool Single Guide Zeleným tlačítkom"
+
+msgid "Start Cool Easy Guide with Yellow Button"
+msgstr "Spusti Cool Easy Guide Žltým tlačítkom"
+
+msgid "Start Cool Info Guide with Info/EPG Button"
+msgstr "Spusti Cool Info Guide tlačítkom Info/EPG"
+
+msgid "Start Cool Channel Guide with Down Button"
+msgstr "Spusti Cool Kanál Guide Šipkou dole"
+
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgid "Save"
+msgstr "Uložiť"
+
+msgid "Search"
+msgstr "Hľadať"
+
+msgid "Yes"
+msgstr "Áno"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "IMDb Search"
+msgstr "Hľadať v IMDb"
+
+msgid "Channel Info"
+msgstr "Info o relácii"
+
+msgid "Add Timer"
+msgstr "Pridať časovač"
+
+msgid "delete this Timer ?"
+msgstr "zmazať tento časovač ?"
+
+msgid "edit this Timer ?"
+msgstr "zmeniť tento časovač ?"
+
+msgid "Bouquetlist"
+msgstr "Zoznam kanálov"
+
+msgid "Sort A-Z"
+msgstr "Triediť A-Z"
+
+msgid "Sort Time"
+msgstr "Triediť čas"
+
+msgid "New Search"
+msgstr "Nové hľadanie"
+
+msgid "Last Search"
+msgstr "Posledné hľadanie"
+
+msgid "Search for:"
+msgstr "Hľadaj :"
+
+msgid "No history"
+msgstr "Nemám históriu hľadania"
+
+msgid "Delete Timer"
+msgstr "Zmaž časovač"
+
+msgid "Today"
+msgstr "Dnes"
+
+msgid "Mon"
+msgstr "Pon"
+
+msgid "Tue"
+msgstr "Uto"
+
+msgid "Wed"
+msgstr "Str"
+
+msgid "Thu"
+msgstr "Štv"
+
+msgid "Fri"
+msgstr "Pia"
+
+msgid "Sat"
+msgstr "Sob"
+
+msgid "Sun"
+msgstr "Ned"
+
+####################################################
+#####                                          #####
+##### ---=[ Special SK translation Addon ]=--- #####
+#####                                          #####
+####################################################
+
+msgid "Cool PrimeTime (20:15)"
+msgstr "Cool Hlavný vysielací čas (20:15)"
+
+msgid "Timer"
+msgstr "Časovač"
+
+msgid "GuideSwitch"
+msgstr "ZmenaŠtýlu"
+
+msgid "CoolSearch"
+msgstr "CoolHľadať"
+
+msgid "Zap"
+msgstr "Prepnúť"
+
+msgid "Zap + Exit"
+msgstr "Prepnúť+Koniec"
+
+msgid "EPG Select"
+msgstr "výber EPG"
+
+msgid "AutoTimer"
+msgstr "Autočasovač"
+

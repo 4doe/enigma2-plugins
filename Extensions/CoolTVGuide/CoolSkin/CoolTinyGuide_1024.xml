@@ -5,6 +5,10 @@
 	<widget source="global.CurrentTime" render="Label" position="192,15" size="80,20" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="left" transparent="1">
 		<convert type="ClockToText">WithSeconds</convert>
 	</widget>
+
+	<widget source="Service" render="CoolPico" position="370,17" zPosition="1" size="34,20" alphatest="blend" transparent="1" />
+	<widget source="Service" render="CoolPico" position="740,17" zPosition="1" size="34,20" alphatest="blend" transparent="1" />
+
 	<widget source="global.CurrentTime" render="Label" position="820,15" size="160,24" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="right" transparent="1">
 		<convert type="ClockToText">Format:%d.%m.%Y</convert>
 	</widget>

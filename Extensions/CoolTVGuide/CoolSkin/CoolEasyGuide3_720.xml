@@ -1,10 +1,13 @@
-<screen name="CoolUniGuide" position="center,center" size="720,576" backgroundColor="#000000" title="Cool Uni Guide" flags="wfNoBorder">
-	<eLabel text="C  o  o  l    U  n  i    G  u  i  d  e" position="205,18" size="380,28" font="Regular;18" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="center" transparent="1" />
+<screen name="CoolEasyGuide3" position="center,center" size="720,576" backgroundColor="#000000" title="Cool Easy Guide" flags="wfNoBorder">
+	<eLabel text="C  o  o  l   E  a  s  y   G  u  i  d  e" position="255,18" size="380,28" font="Regular;18" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="center" transparent="1" />
 	<widget name="date" position="30,18" size="180,24" font="Regular;18" halign="left" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
 	<ePixmap pixmap="skin_default/icons/clock.png" position="178,20" zPosition="1" size="14,14" alphatest="on" />
 	<widget source="global.CurrentTime" render="Label" position="196,18" size="80,20" font="Regular;18" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="left" transparent="1">
 		<convert type="ClockToText">WithSeconds</convert>
 	</widget>
+
+	<widget source="Service" render="CoolPico" position="290,17" zPosition="1" size="34,20" alphatest="blend" transparent="1" />
+
 	<widget source="global.CurrentTime" render="Label" position="580,18" size="100,24" font="Regular;18" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="right" transparent="1">
 		<convert type="ClockToText">Format:%d.%m.%Y</convert>
 	</widget>

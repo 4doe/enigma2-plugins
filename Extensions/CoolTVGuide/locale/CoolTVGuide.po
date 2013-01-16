@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Cool TV Guide V5.1\n"
-"POT-Creation-Date: 2012-02-02 20:50+0100\n"
-"PO-Revision-Date: 2012-02-03 00:26+0100\n"
+"Project-Id-Version: Cool TV Guide V6.0\n"
+"POT-Creation-Date: 2012-06-01 20:50+0100\n"
+"PO-Revision-Date: 2012-06-01 00:26+0100\n"
 "Last-Translator: Coolman <Coolman@uni.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -50,6 +50,12 @@ msgstr "Linke Spaltenbreite (190), (110), (110)"
 msgid "Channel 1 at Start (No)"
 msgstr "Starte auf Kanal 1 (Nein)"
 
+msgid "Special Character (UTF-8) Fix (No)"
+msgstr "Umlaute (UTF-8) Fix (Nein)"
+
+msgid "Short Service Name (No)"
+msgstr "Kurzer Service Name (Nein)"
+
 msgid "Red Button (Zap)"
 msgstr "Rote Taste (Zap)"
 
@@ -71,8 +77,8 @@ msgstr "LangGelbe Taste (Bouquetliste)"
 msgid "Blue Button (CoolSearch)"
 msgstr "Blaue Taste (CoolSearch)"
 
-msgid "LongBlue Button (IMDb Search)"
-msgstr "LangBlaue Taste (IMDb Suche)"
+msgid "LongBlue Button (CoolInfoBox)"
+msgstr "LangBlaue Taste (CoolInfoBox)"
 
 msgid "OK Button (Cool Info Guide)"
 msgstr "OK Taste (Cool Info Guide)"
@@ -134,11 +140,11 @@ msgstr "ist deaktiviert"
 msgid "configuration of all Guides for your special wishes"
 msgstr "Anpassung aller Guides an Deine speziellen Wünsche"
 
-msgid "Cool Easy-Uni Guide use Yellow/Blue for Time -/+"
-msgstr "Cool Easy-Uni Guide benutze Gelb/Blau für Zeit -/+"
+msgid "Cool Easy Guide use Yellow/Blue for Time -/+"
+msgstr "Cool Easy Guide benutze Gelb/Blau für Zeit -/+"
 
-msgid "Cool Easy-Uni Guide show Channel Number"
-msgstr "Cool Easy-Uni Guide Sendernummer anzeigen"
+msgid "Cool Easy Guide show Channel Number"
+msgstr "Cool Easy Guide Sendernummer anzeigen"
 
 msgid "Cool TimerAlarm check if Timer has changed"
 msgstr "Cool TimerAlarm prüfe auf Änderungen aller Timer"
@@ -157,6 +163,9 @@ msgstr "Starte Cool Easy Guide mit gelber Taste"
 
 msgid "Start Cool Info Guide with Info/EPG Button"
 msgstr "Starte Cool Info Guide mit Info/EPG Taste"
+
+msgid "Start Cool Channel Guide with Down Button"
+msgstr "Starte Cool Channel Guide mit runter Taste"
 
 msgid "Cancel"
 msgstr "Abbruch"

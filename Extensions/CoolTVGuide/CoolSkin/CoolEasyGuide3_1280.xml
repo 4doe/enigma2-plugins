@@ -1,6 +1,6 @@
-<screen name="CoolUniGuide" position="0,0" size="1280,720" title="Cool Uni Guide" backgroundColor="#000000" flags="wfNoBorder">
-	<eLabel text="C  o  o  l    U  n  i    G  u  i  d  e" position="520,20" size="480,30" font="Regular;26" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="center" transparent="1" />
-	<ePixmap position="0,0" zPosition="-10" size="1280, 720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/Menu/CoolUniGuide.png" transparent="1" />
+<screen name="CoolEasyGuide3" position="0,0" size="1280,720" title="Cool Easy Guide" backgroundColor="#000000" flags="wfNoBorder">
+	<eLabel text="C  o  o  l   E  a  s  y   G  u  i  d  e" position="520,20" size="480,30" font="Regular;26" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="center" transparent="1" />
+	<ePixmap position="0,0" zPosition="-10" size="1280, 720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/Menu/CoolEasyGuide2.png" transparent="1" />
 	<widget name="date" position="40,20" size="180,30" font="Regular;26" halign="left" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
 	<ePixmap pixmap="skin_default/icons/clock.png" position="305,27" zPosition="1" size="26,26" alphatest="on" />
 	<widget source="global.CurrentTime" render="Label" position="325,20" size="160,30" font="Regular;26" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="left" transparent="1">
@@ -14,7 +14,7 @@
 		<convert type="ClockToText">Format:%d.%m.%Y</convert>
 	</widget>
 
-	<widget name="list" position="40,60" size="1200,505" itemHeight="28" zPosition="25" CoolFont="Regular;22" CoolServiceFont="Regular;22" CoolEventFont="Regular;22" CoolServiceSize="245" CoolEventSize="595" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="260" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="18" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="1070" CoolDurationSize="120" CoolServiceColor="#FF6600" CoolBarColor="#3B98C9" CoolEventColor="#FFFFFF" CoolBackColorSel="#000000" CoolRecPreColor="#B59E01" CoolRecColor="#9F1313" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" />
+	<widget name="list" position="40,60" size="1200,505" itemHeight="28" zPosition="25" CoolFont="Regular;22" CoolServiceFont="Regular;22" CoolEventFont="Regular;22" CoolServiceSize="245" CoolEventSize="640" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="260" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="18" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="1085" CoolDurationSize="105" CoolServiceColor="#FF6600" CoolBarColor="#3B98C9" CoolEventColor="#FFFFFF" CoolBackColorSel="#000000" CoolRecPreColor="#B59E01" CoolRecColor="#9F1313" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" />
 
 	<widget source="Event" render="Label" position="5,577" size="100,30" font="Regular;24" foregroundColor="#FF6600" backgroundColor="#000000" halign="right" transparent="1">
 		<convert type="EventTime">StartTime</convert>
@@ -24,10 +24,10 @@
 		<convert type="EventTime">EndTime</convert>
 		<convert type="ClockToText">Format:- %H:%M</convert>
 	</widget>
-	<widget source="Event" render="Label" position="230,577" size="600,30" font="Regular;24" foregroundColor="#FF6600" backgroundColor="#444444" shadowColor="#444444" transparent="1" halign="left">
+	<widget source="Event" render="Label" position="230,577" size="1000,30" font="Regular;24" foregroundColor="#FF6600" backgroundColor="#444444" shadowColor="#444444" transparent="1" halign="left">
 		<convert type="EventName">Name</convert>
 	</widget>
-	<widget source="Event" render="Label" position="40,605" zPosition="1" size="1200,73" font="Regular;20" foregroundColor="#00dddddd" backgroundColor="#00605f5e" shadowColor="#00605f5e" transparent="1" valign="top">
+	<widget source="Event" render="Label" position="40,605" zPosition="1" size="1200,71" font="Regular;20" foregroundColor="#00dddddd" backgroundColor="#00605f5e" shadowColor="#00605f5e" transparent="1" valign="top">
 		<convert type="EventName">ExtendedDescription</convert>
 	</widget>
 

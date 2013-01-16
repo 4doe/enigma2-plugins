@@ -1,0 +1,60 @@
+<screen name="CoolChannelGuide" position="center,center" size="1024,576" backgroundColor="#000000" title="Cool Channel Guide">
+	<eLabel text="C  o  o  l   C  h  a  n  n  e  l   G  u  i  d  e" position="425,15" size="380,24" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="center" transparent="1" />
+	<widget name="date" position="32,15" size="180,24" font="Regular;20" halign="left" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
+	<ePixmap pixmap="skin_default/icons/clock.png" position="257,20" zPosition="1" size="18,18" alphatest="on" />
+	<widget source="global.CurrentTime" render="Label" position="274,15" size="80,20" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="left" transparent="1">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+
+	<eLabel position="32,420" size="958,2" backgroundColor="grey"/>
+	<eLabel position="725,186" size="1,235" backgroundColor="grey"/>
+	
+	<widget source="Service" render="CoolPico" position="385,17" zPosition="1" size="34,20" alphatest="blend" transparent="1" />
+	<widget source="Service" render="CoolPico" position="810,17" zPosition="1" size="34,20" alphatest="blend" transparent="1" />
+
+	<widget source="global.CurrentTime" render="Label" position="820,15" size="160,24" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="right" transparent="1">
+		<convert type="ClockToText">Format:%d.%m.%Y</convert>
+	</widget>
+	
+	<widget source="session.VideoPicture" render="Pig" position="725,55" size="255,143" zPosition="3" backgroundColor="#ff000000" />
+
+	
+	<widget source="Event" render="Label" position="700,422" size="80,30" font="Regular;22" foregroundColor="#00dddddd" backgroundColor="#000000" shadowColor="#000000" halign="right" transparent="1">
+		<convert type="EventTime">StartTime</convert>
+		<convert type="ClockToText" />
+	</widget>
+	<widget source="Event" render="Label" position="940,422" size="80,30" font="Regular;22" foregroundColor="#00dddddd" backgroundColor="#000000" shadowColor="#000000" halign="left" transparent="1">
+		<convert type="EventTime">EndTime</convert>
+		<convert type="ClockToText">Format:%H:%M</convert>
+	</widget>
+	<widget source="Event" render="Label" position="32,422" size="690,26" font="Regular;21" foregroundColor="#00e5b243" backgroundColor="#000000" shadowColor="#000000" transparent="1">
+		<convert type="EventName">Name</convert>
+	</widget>
+
+	<ePixmap position="790,429" size="140,14" zPosition="1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/progress_back.png" />
+    <widget source="Event" render="Progress" position="790,429" size="140,14" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/progress.png" borderWidth="2" borderColor="#000000" zPosition="2" transparent="1">
+	  <convert type="EventTime">Progress</convert>
+	</widget> 
+
+	<widget source="Event" render="Label" position="32,450" zPosition="1" size="960,85" font="Regular;18" foregroundColor="#00dddddd" backgroundColor="#000000" shadowColor="#000000" transparent="1" valign="top">
+		<convert type="EventName">ExtendedDescription</convert>
+	</widget>
+	<widget name="list" position="32,50" size="680,365" itemHeight="28" zPosition="25" CoolPico="28" CoolPicoHPos="1" CoolFont="Regular;22" CoolServiceFont="Regular;21" CoolEventFont="Regular;18" CoolServiceSize="230" CoolEventSize="310" CoolServicePos="1" CoolServiceHPos="1" CoolEventPos="240" CoolEventHPos="2" CoolMarkerPicPos="2" CoolMarkerPicHPos="2" CoolMarkerHPos="1" CoolMarkerPos="120" CoolBar="0" CoolTime="1" CoolTimePos="565" CoolTimeHPos="2" CoolTimeSize="130" CoolDurationPos="640" CoolDurationSize="40" CoolServiceColor="#FFFFFF" CoolBarColor="#3B98C9" CoolEventColor="#999999" CoolBackColorSel="#000000" CoolRecPreColor="#B59E01" CoolRecColor="#9F1313" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" />
+
+	<eLabel text="Next Events" position="740,205" size="235,25" font="Regular;22" halign="center" valign="center" foregroundColor="#f23d21" backgroundColor="#000000" transparent="1"/>  
+    
+	
+	<widget source="Service" render="CoolNextEvent" position="740,235" size="235,192" font="Regular;18" backgroundColor="#000000" foregroundColor="#FFFFFF" transparent="1">
+	</widget>
+
+	<widget source="Title" render="Label" position="32,539" size="230,32" zPosition="3" font="Regular;18" foregroundColor="#00605f5e" backgroundColor="#000000" halign="left" transparent="1" />
+	<ePixmap pixmap="skin_default/buttons/red.png" position="225,538" size="20,20" alphatest="blend" />
+	<ePixmap pixmap="skin_default/buttons/green.png" position="380,538" size="20,20" alphatest="blend" />
+	<ePixmap pixmap="skin_default/buttons/yellow.png" position="550,538" size="20,20" alphatest="blend" />
+	<ePixmap pixmap="skin_default/buttons/blue.png" position="705,538" size="20,20" alphatest="blend" />
+	<widget name="key_red" position="255,539" size="125,26" font="Regular;18" foregroundColor="#9F1313" backgroundColor="#000000" shadowColor="#000000" halign="left" valign="top" transparent="1" />
+	<widget name="key_green" position="410,539" size="125,26" font="Regular;18" foregroundColor="#00389416" backgroundColor="#000000" shadowColor="#000000" halign="left" valign="top" transparent="1" />
+	<widget name="key_yellow" position="580,539" size="125,26" font="Regular;18" foregroundColor="#B59E01" backgroundColor="#000000" shadowColor="#000000" halign="left" valign="top" transparent="1" />
+	<widget name="key_blue" position="735,539" size="125,26" font="Regular;18" foregroundColor="#1E28B6" backgroundColor="#000000" shadowColor="#000000" halign="left" valign="top" transparent="1" />
+
+</screen>

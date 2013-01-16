@@ -17,7 +17,7 @@
 	<ePixmap position="40,58" size="390,225" zPosition="2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/Menu/CoolFrame.png" />
 	<widget source="session.VideoPicture" render="Pig" position="45,63" size="380,215" zPosition="3" backgroundColor="#ff000000" />
 
-	<widget source="Service" render="Label" position="40,300" size="390,30" zPosition="3" font="Regular;28" halign="center" foregroundColor="#FF6600" backgroundColor="#000000" shadowColor="#000000" transparent="1">
+	<widget source="Service" render="Label" position="40,300" size="390,36" zPosition="3" font="Regular;28" halign="center" foregroundColor="#FF6600" backgroundColor="#000000" shadowColor="#000000" transparent="1">
 		<convert type="ServiceName">Name</convert>
 	</widget>
 

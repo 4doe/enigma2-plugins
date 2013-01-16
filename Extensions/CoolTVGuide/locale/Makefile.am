@@ -1,5 +1,5 @@
 installdir = $(LIBDIR)/enimga2/python/Plugins/Extensions/CoolTVGuide
 
-SUBDIRS = bg  cs  de  fa  fr  nl  no  pl 
+SUBDIRS = bg cs de fa fr it nl no pl sk
 
 install_DATA = CoolTVGuide.po 

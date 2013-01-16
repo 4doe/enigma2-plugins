@@ -1,0 +1,130 @@
+<screen name="CoolTVGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolMultiGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolTinyGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolNiceGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolChannelGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolInfoGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolSingleGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolEasyGuide_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolEasyGuide2_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>
+<screen name="CoolSearch_summary" position="0,0" size="132,64">
+	<widget source="parent.Service" render="Label" position="1,0" size="130,38" font="Regular;18" halign="center">
+		 <convert type="ServiceName">Name</convert>
+	</widget>
+	<eLabel position="0,49" size="132,1" backgroundColor="white"/>
+	<widget source="global.CurrentTime" render="Label" position="1,50" size="69,16" font="Regular;15" halign="left">
+		<convert type="ClockToText">WithSeconds</convert>
+	</widget>
+	<widget source="parent.Service" render="Label" position="72,50" size="60,16" font="Regular;15" halign="right">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">inMinutes</convert>
+	</widget>
+</screen>

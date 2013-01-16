@@ -6,23 +6,42 @@
 	<widget source="global.CurrentTime" render="Label" position="274,15" size="80,20" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="left" transparent="1">
 		<convert type="ClockToText">WithSeconds</convert>
 	</widget>
+
+	<widget source="Service" render="CoolPico" position="390,17" zPosition="1" size="34,20" alphatest="blend" transparent="1" />
+	<widget source="Service" render="CoolPico" position="805,17" zPosition="1" size="34,20" alphatest="blend" transparent="1" />
+
 	<widget source="global.CurrentTime" render="Label" position="820,15" size="160,24" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" shadowColor="#000000" halign="right" transparent="1">
 		<convert type="ClockToText">Format:%d.%m.%Y</convert>
 	</widget>
 
 	<widget source="session.VideoPicture" render="Pig" position="35,49" size="305,174" zPosition="3" backgroundColor="#ff000000" />
 
-	<widget name="list" position="360,45" size="620,310" itemHeight="28" zPosition="25" CoolFont="Regular;22" CoolTimePos="65" CoolEventPos="150" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" CoolDayColor="#FF6600" CoolTimeColor="#3B98C9" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolRecPreColor="#B59E01" CoolRecColor="#9F1313" foregroundColor="#FFFFFF" backgroundColor="#00605f5e" transparent="1" />
+	<widget name="list" position="360,45" size="620,310" itemHeight="28" zPosition="25" CoolFont="Regular;20" CoolEventFont="Regular;20" CoolDayHPos="1" CoolTimePos="65" CoolTimeHPos="1" CoolEventPos="130" CoolEventHPos="1" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" CoolDayColor="#FF6600" CoolTimeColor="#3B98C9" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolRecPreColor="#B59E01" CoolRecColor="#9F1313" foregroundColor="#FFFFFF" backgroundColor="#00605f5e" transparent="1" />
 
-	<widget source="Service" render="Label" position="32,250" size="300,30" zPosition="3" font="Regular;26" halign="center" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1">
+	<widget source="Service" render="Label" position="32,240" size="300,30" zPosition="3" font="Regular;26" halign="center" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1">
 		<convert type="ServiceName">Name</convert>
 	</widget>
+
+	<widget source="Event" render="Label" position="32,280" size="300,28" font="Regular;24" foregroundColor="#00dddddd" halign="center" backgroundColor="#000000" shadowColor="#000000" transparent="1">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">InMinutes</convert>
+	</widget>
+
+	<widget source="Event" render="Label" position="70,320" size="100,30" font="Regular;26" foregroundColor="#3B98C9" backgroundColor="#000000" shadowColor="#000000" halign="right" transparent="1">
+		<convert type="EventTime">StartTime</convert>
+		<convert type="ClockToText" />
+	</widget>
+	<widget source="Event" render="Label" position="178,320" size="100,30" font="Regular;26" foregroundColor="#3B98C9" backgroundColor="#000000" shadowColor="#000000" halign="left" transparent="1">
+		<convert type="EventTime">EndTime</convert>
+		<convert type="ClockToText">Format:- %H:%M</convert>
+	</widget>
+
 	<eLabel position="32,355" size="960,2" backgroundColor="#FFFFFF" zPosition="5" />
 
-	<widget source="Event" render="Label" position="32,300" size="340,50" font="Regular;20" foregroundColor="#FF6600" backgroundColor="#000000" transparent="1" halign="left">
+	<widget source="Event" render="Label" position="32,365" size="950,26" font="Regular;22" foregroundColor="#FF6600" backgroundColor="#000000" transparent="1" halign="left">
 		<convert type="EventName">Name</convert>
 	</widget>
-	<widget source="Event" render="Label" position="32,365" size="960,168" font="Regular;20" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1">
+	<widget source="Event" render="Label" position="32,390" size="960,148" font="Regular;18" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1">
 		<convert type="EventName">ExtendedDescription</convert>
 	</widget>
 

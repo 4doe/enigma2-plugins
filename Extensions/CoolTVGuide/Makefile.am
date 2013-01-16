@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide
+installdir = $(LIBDIR)/enigma1/python/Plugins/Extensions/CoolTVGuide
 
 SUBDIRS = Cool3D CoolSkin locale 
 
@@ -7,8 +7,8 @@ install_PYTHON = \
 	plugin.pyo \
 	CoolEasyGuide.pyo \
 	CoolInfoGuide.pyo \
-	CoolSearch.pyo \
 	CoolSingleGuide.pyo \
-	CoolTVGuide.png 
+	CoolTVGuide.png \
+	CoolChannelGuide.pyo
 
 install_DATA = keymap.xml maintainer.info

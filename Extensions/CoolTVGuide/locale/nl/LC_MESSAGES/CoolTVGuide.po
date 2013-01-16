@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Cool TV Guide V5.0.0\n"
-"POT-Creation-Date: 2011-06-01 18:50+0100\n"
-"PO-Revision-Date: 2011-10-26 22:17+0100\n"
+"Project-Id-Version: Cool TV Guide V3.0.0\n"
+"POT-Creation-Date: 2012-02-02 20:50+0100\n"
+"PO-Revision-Date: 2012-04-10 08:02+0100\n"
 "Last-Translator: bschaar\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,14 +23,11 @@ msgstr ""
 msgid "Cool 3D"
 msgstr "Cool 3D"
 
-msgid "Load Picon (Yes) (need restart)"
-msgstr "Laad Picon (Ja) (herstarten!)"
+msgid "Show Picon (Yes) (need restart)"
+msgstr "Picon weergeven (Ja) (herstarten!)"
 
-msgid "Load CoolPico (Yes) (need restart)"
-msgstr "Laad CoolPico (Ja) (herstarten!)"
-
-msgid "Start with Standard Height 60 (Yes)"
-msgstr "Start met standaard hoogte 60 (Ja)"
+msgid "Show CoolPico (Yes) (need restart)"
+msgstr "CoolPico weergeven (Ja) (herstarten!)"
 
 msgid "Picon Height (60), (54), (54)"
 msgstr "Picon hoogte (60), (54), (54)"
@@ -44,20 +41,14 @@ msgstr "CoolPico hoogte (30), (27), (27)"
 msgid "CoolPico Item Height (30), (27), (27)"
 msgstr "CoolPico regelhoogte (30), (27), (27)"
 
-msgid "Left Width for 60 Height (110), (75), (75)"
-msgstr "Breedte links, voor hoogte 60 (110), (75), (75)"
+msgid "Left Section Width (110), (75), (75)"
+msgstr "Breedte links (110), (75), (75)"
 
-msgid "Left Width for 30 Height (190), (110), (110)"
-msgstr "Breedte links voor hoogte 30 (190), (110), (110)"
+msgid "Left Section Width (190), (110), (110)"
+msgstr "Breedte links (190), (110), (110)"
 
 msgid "Channel 1 at Start (No)"
 msgstr "Start op zender 1 (Nee)"
-
-msgid "Picon Path (Press Menu)"
-msgstr "Picon pad (Druk op Menu)"
-
-msgid "About (Press Menu)"
-msgstr "Over (Druk op Menu)"
 
 msgid "Red Button (Zap)"
 msgstr "Rode knop (Zap)"
@@ -94,12 +85,6 @@ msgstr "Info/EPG knop (EPG Select)"
 
 msgid "LongInfo Button"
 msgstr "Info knop lang"
-
-msgid "Cool PrimeTime (20) hour"
-msgstr "Cool Primetime (20) uur"
-
-msgid "Cool PrimeTime (00) minute"
-msgstr "Cool Primetime (00) minuten"
 
 msgid "Event 60 Fontsize (18), (15), (15)"
 msgstr "Lettergrootte rechts 60 (18), (15), (15)"
@@ -146,17 +131,32 @@ msgstr "werd verplaatst"
 msgid "is disabled"
 msgstr "is gedeactiveerd"
 
-msgid "Cool Easy Guide use Yellow/Blue for Time -/+"
-msgstr "Cool Easy Guide gebruik Geel/Blauw voor tijd -/+"
+msgid "configuration of all Guides for your special wishes"
+msgstr "Anpassung aller Guides an Deine speziellen Wünsche"
 
-msgid "Cool Easy Guide show Channel Number"
-msgstr "Cool Easy Guide kanaalnummer weergeven"
+msgid "Cool Easy-Uni Guide use Yellow/Blue for Time -/+"
+msgstr "Cool Easy-Uni Guide gebruik Geel/Blauw voor tijd -/+"
+
+msgid "Cool Easy-Uni Guide show Channel Number"
+msgstr "Cool Easy-Uni Guide kanaalnummer weergeven"
 
 msgid "Cool TimerAlarm check if Timer has changed"
 msgstr "Cool TimerAlarm controleer of een Timer aangepast werd"
 
 msgid "Cool TimerAlarm check if Timer is deaktivated"
 msgstr "Cool TimerAlarm controleer of een Timer gedeactiveerd werd"
+
+msgid "Start Cool TV Guide with Red Button"
+msgstr "Starte Cool TV Guide mit roter Taste"
+
+msgid "Start Cool Single Guide with Green Button"
+msgstr "Starte Cool Single Guide mit grüner Taste"
+
+msgid "Start Cool Easy Guide with Yellow Button"
+msgstr "Cool Easy Guide starten met Geel"
+
+msgid "Start Cool Info Guide with Info/EPG Button"
+msgstr "Starte Cool Info Guide mit Info/EPG Taste"
 
 msgid "Cancel"
 msgstr "Afbreken"
@@ -190,12 +190,6 @@ msgstr "Timer wijzigen ?"
 
 msgid "Bouquetlist"
 msgstr "Favorietenlijst"
-
-msgid "Cool Picon Path"
-msgstr "Cool Picon Pad"
-
-msgid "Your Picon Path:"
-msgstr "Uw Picon Pad:"
 
 msgid "Sort A-Z"
 msgstr "Sorteren A-Z"
@@ -241,6 +235,27 @@ msgstr "Za"
 
 msgid "Sun"
 msgstr "Zo"
+
+#~ msgid "Start with Standard Height 60 (Yes)"
+#~ msgstr "Start met standaard hoogte 60 (Ja)"
+
+#~ msgid "Picon Path (Press Menu)"
+#~ msgstr "Picon pad (Druk op Menu)"
+
+#~ msgid "About (Press Menu)"
+#~ msgstr "Over (Druk op Menu)"
+
+#~ msgid "Cool PrimeTime (20) hour"
+#~ msgstr "Cool Primetime (20) uur"
+
+#~ msgid "Cool PrimeTime (00) minute"
+#~ msgstr "Cool Primetime (00) minuten"
+
+#~ msgid "Cool Picon Path"
+#~ msgstr "Cool Picon Pad"
+
+#~ msgid "Your Picon Path:"
+#~ msgstr "Uw Picon Pad:"
 
 #~ msgid "LongInfo Button (Cool TV<>Multi Guide)"
 #~ msgstr "Info/EPG knop lang (Cool TV<>Multi Guide)"
