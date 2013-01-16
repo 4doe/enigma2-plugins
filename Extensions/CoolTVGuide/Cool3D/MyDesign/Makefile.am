@@ -1,7 +1,6 @@
 installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/MyDesign
 
 install_DATA = \
-
 CoolBack.png \
 CoolBackS.png \
 CoolFreeTuner.png \

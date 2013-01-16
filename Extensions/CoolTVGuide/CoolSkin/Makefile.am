@@ -1,7 +1,7 @@
 installdir = $(LIBDIR)/enigma1/python/Plugins/Extensions/CoolTVGuide/CoolSkin
 
 install_DATA = \
-			CoolChannelGuide2_1024.xml \ 
+			CoolChannelGuide2_1024.xml \
 			CoolChannelGuide2_1280.xml \
 			CoolChannelGuide3_1024.xml \
 			CoolChannelGuide3_1280.xml \
