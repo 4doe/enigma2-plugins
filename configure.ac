@@ -43,7 +43,6 @@ PLi/SoftcamSetup/po/Makefile
 PLi/SnmpAgent/Makefile
 Extensions/Makefile
 Extensions/UShare/Makefile
-Extensions/MyTube/Makefile
 Extensions/nStreamVOD/Makefile
 Extensions/nStreamVOD/img/Makefile
 Extensions/nStreamVOD/img/playlist/Makefile
@@ -95,3 +94,5 @@ Extensions/SatelliteEquipmentControl/Makefile
 SystemPlugins/Makefile
 SystemPlugins/NetworkWizard/Makefile
 ])
+#Extensions/MyTube/Makefile
+
