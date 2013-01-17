@@ -75,6 +75,7 @@ Extensions/CoolTVGuide/locale/pl/Makefile
 Extensions/CoolTVGuide/locale/pl/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/sk/Makefile
 Extensions/CoolTVGuide/locale/sk/LC_MESSAGES/Makefile
+Extensions/CoolTVGuide/src/Makefile
 Extensions/MyTube/Makefile
 Extensions/PermanentTimeshift/Makefile
 Extensions/PermanentTimeshift/images/Makefile
