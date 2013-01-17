@@ -1,6 +1,6 @@
 installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide
 
-SUBDIRS = Cool3D CoolSkin locale src 
+SUBDIRS = Cool3D CoolSkin locale
 
 install_PYTHON = \
 	__init__.pyo \
