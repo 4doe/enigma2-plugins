@@ -75,6 +75,7 @@ Extensions/CoolTVGuide/locale/pl/Makefile
 Extensions/CoolTVGuide/locale/pl/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/locale/sk/Makefile
 Extensions/CoolTVGuide/locale/sk/LC_MESSAGES/Makefile
+Extensions/MyTube/Makefile
 Extensions/PermanentTimeshift/Makefile
 Extensions/PermanentTimeshift/images/Makefile
 Extensions/PermanentTimeshift/locale/Makefile
@@ -96,5 +97,4 @@ Extensions/SatelliteEquipmentControl/Makefile
 SystemPlugins/Makefile
 SystemPlugins/NetworkWizard/Makefile
 ])
-#Extensions/MyTube/Makefile
 
