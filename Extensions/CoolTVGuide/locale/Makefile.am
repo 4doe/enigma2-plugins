@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/enimga2/python/Plugins/Extensions/CoolTVGuide
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/CoolTVGuide
 
 SUBDIRS = bg cs de fa fr it nl no pl sk
 
