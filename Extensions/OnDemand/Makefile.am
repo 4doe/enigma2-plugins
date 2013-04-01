@@ -1,6 +1,6 @@
 installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/OnDemand
 
-SUBDIRS = icons locale  
+SUBDIRS = icons locale 
 
 install_PYTHON = \
 				 bbciplayer.pyo \
