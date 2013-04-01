@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iptvstreams_list>
+	<group>
+		<id>1</id>
+		<name>User_streams</name>
+                <channel>
+			<id>1</id>
+			<name>Optiflasher-TSpanel-youtube</name>
+			<piconname>dummy.png</piconname>
+			<stream_url><![CDATA[http://r16---sn-4g57ln7z.c.youtube.com/videoplayback?algorithm=throttle-factor&burst=40&cp=U0hVRVhOVF9MSkNONV9QSFhEOm9wNWVrWDQ2cF95&cpn=maAebfpvA4R8s4-v&expire=1360836370&factor=1.25&fexp=917000,907725,911407,906436,914076,916624,902547,920704,912806,902000,922403,922405,929901,913605,925006,908529,920201,930101,911116,926403,910221,901451,919114&id=759759e91d0514e6&ip=109.107.142.219&ipbits=8&itag=34&keepalive=yes&key=yt1&ms=nxu&mt=1360813686&mv=m&newshard=yes&ratebypass=yes&signature=256809F2CD515AF8E0DEA721CB014FACDAFBFC66.81AA1EBA4E8A38751428C1907A722568F1557F81&source=youtube&sparams=algorithm,burst,cp,factor,id,ip,ipbits,itag,source,upn,expire&sver=3&upn=dACIxdRrml8&redirect_counter=1&cms_redirect=yes]]></stream_url>
+			<ts_stream></ts_stream>
+			<buffer_kb>512</buffer_kb>		
+		</channel>
+                <channel>
+			<id>2</id>
+			<name>Flight</name>
+			<piconname>dummy.png</piconname>
+			<stream_url>http://server35.stream2k.com/dl3/_9nmwWthMipYmaelmmbUfxSrruFcuGJU9tlFPs38-gPQIQk1LMMiN44fWdpUejiTKiZnOS4jN3P7-N5zxjSkdG7QlmR6ihyRk1Tm_3v-GDY=.flv</stream_url>
+			<ts_stream></ts_stream>
+			<buffer_kb>512</buffer_kb>		
+		</channel>
+                <channel>
+			<id>3</id>
+			<name>NGeo</name>
+			<piconname>dummy.png</piconname>
+			<stream_url><![CDATA[rtmp://50.7.168.106/live playpath=natgeo  swfUrl=http://www.tv-msn.com/player/player.swf  pageUrl=http://tv-msn.com/natgeo.html live=1]]></stream_url>
+			<ts_stream></ts_stream>
+			<buffer_kb>512</buffer_kb>		
+		</channel>
+ 
+        </group>
+        	
+</iptvstreams_list>
