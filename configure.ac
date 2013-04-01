@@ -133,6 +133,7 @@ Extensions/nStreamVOD/img/Makefile
 Extensions/nStreamVOD/img/playlist/Makefile
 Extensions/nStreamVOD/Moduls/Makefile
 Extensions/1channel/Makefile
+Extensions/SHOUTcast/Makefile
 Extensions/CoolTVGuide/Makefile
 Extensions/CoolTVGuide/Cool3D/Makefile
 Extensions/CoolTVGuide/Cool3D/Menu/Makefile
