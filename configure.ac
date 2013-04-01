@@ -135,6 +135,10 @@ Extensions/nStreamVOD/Moduls/Makefile
 Extensions/1channel/Makefile
 Extensions/SHOUTcast/Makefile
 Extensions/SHOUTcast/locale/Makefile
+Extensions/SHOUTcast/locale/de/Makefile
+Extensions/SHOUTcast/locale/de/LC_MESSAGES/Makefile
+Extensions/SHOUTcast/locale/it/Makefile
+Extensions/SHOUTcast/locale/it/LC_MESSAGES/Makefile
 Extensions/CoolTVGuide/Makefile
 Extensions/CoolTVGuide/Cool3D/Makefile
 Extensions/CoolTVGuide/Cool3D/Menu/Makefile
