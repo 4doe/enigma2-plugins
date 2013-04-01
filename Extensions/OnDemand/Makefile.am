@@ -1,4 +1,4 @@
-installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/OnDemand
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/OnDemand/locale
 
 SUBDIRS = icons locale 
 
