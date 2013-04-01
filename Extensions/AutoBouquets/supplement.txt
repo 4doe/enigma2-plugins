@@ -1,0 +1,4 @@
+# sky channel number[HEX????]:epg id[DEC????]:service type[HEX??]:service id[HEX????]:transponder id[HEX????]:namespace[11a0000]:provider[BSkyB/BskyB]:encryption[FTA/NDS]:channel name[STRING]
+03e0:1255:01:2585:07fb:11a0000:BSkyB:NDS:TV3
+03e1:4693:01:cb87:08fd:11a0000:BSkyB:NDS:e3
+03e2:1842:19:0f0f:0808:11a0000:BSkyB:FTA:STV HD
