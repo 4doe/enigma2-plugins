@@ -9,4 +9,4 @@ install_PYTHON = \
 				 plugin.pyo \
 				 ThreadQueue.pyo
 
-install_DATA = list_bg.png list_sel.png LICENSE maintainer.info mytubemain_bg.png plugin.png plugin.pyo starsbar_empty.png starsbar_filled.png suggestions_bg.png LICENSE
+install_DATA = list_bg.png list_sel.png LICENSE maintainer.info mytubemain_bg.png plugin.png plugin.pyo starsbar_empty.png starsbar_filled.png suggestions_bg.png
