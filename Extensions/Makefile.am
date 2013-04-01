@@ -1,1 +1,1 @@
-SUBDIRS = 1channel CoolTVGuide nStreamVOD UShare PermanentTimeshift TSsatEditor SatelliteEquipmentControl PPanel MyTube AutoBouquets icefilms OnDemand
+SUBDIRS = 1channel CoolTVGuide nStreamVOD UShare PermanentTimeshift TSsatEditor SatelliteEquipmentControl PPanel MyTube AutoBouquets icefilms OnDemand PlayStream TSonlineTV
