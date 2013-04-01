@@ -123,6 +123,11 @@ Extensions/OnDemand/locale/tr/Makefile
 Extensions/OnDemand/locale/tr/LC_MESSAGES/Makefile
 Extensions/OnDemand/locale/uk/Makefile
 Extensions/OnDemand/locale/uk/LC_MESSAGES/Makefile
+Extensions/PlayStream/Makefile
+Extensions/PlayStream/streams/Makefile
+Extensions/TSonlineTV/Makefile
+Extensions/TSonlineTV/img/Makefile
+Extensions/TSonlineTV/picons/Makefile
 Extensions/nStreamVOD/Makefile
 Extensions/nStreamVOD/img/Makefile
 Extensions/nStreamVOD/img/playlist/Makefile
