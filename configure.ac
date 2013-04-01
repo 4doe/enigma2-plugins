@@ -48,7 +48,7 @@ Extensions/icefilms/resolvers/Makefile
 Extensions/UShare/Makefile
 Extensions/OnDemand/Makefile
 Extensions/OnDemand/icons/Makefile
-xtensions/PlayStream/Makefile
+Extensions/PlayStream/Makefile
 Extensions/PlayStream/streams/Makefile
 Extensions/TSonlineTV/Makefile
 Extensions/TSonlineTV/img/Makefile
