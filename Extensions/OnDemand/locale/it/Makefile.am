@@ -1,3 +1,3 @@
-installdir = /enigma2/python/Plugins/Extensions/OnDemand/locale/it
+installdir = $(LIBDIR)/enigma2/python/Plugins/Extensions/OnDemand/locale/it
 
 SUBDIR = LC_MESSAGES
